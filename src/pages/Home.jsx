@@ -14,7 +14,6 @@ import mongoLogo from "../assets/mongoLogo.png";
 import chakraLogo from "../assets/chakraLogo.png";
 import bootstrapLogo from "../assets/bootstrapLogo.png";
 
-
 const navigation = [
   { name: "Experience", href: "#" },
   { name: "Projects", href: "#" },
@@ -84,11 +83,7 @@ export default function Home() {
               <span>Vivek Santani</span>
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
-                <img
-                  className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                  alt=""
-                />
+                <img className="h-8 w-auto" src={logo} alt="" />
               </a>
               <button
                 type="button"
@@ -117,7 +112,7 @@ export default function Home() {
                     href="#"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
-                    Log in
+                    Download Resume
                   </a>
                 </div>
               </div>
@@ -186,49 +181,57 @@ export default function Home() {
           />
         </div>
 
-        <div className="">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
-          Techstack 
-        </h2>
-        <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-          <img
-            className="col-span-2 max-h-20 w-12 h-12 object-contain lg:col-span-1"
-            src={htmlLogo}
-          />
-          <img
-            className="col-span-2 max-h-12 w-12 h-12 object-contain lg:col-span-1"
-            src={cssLogo}
-          />
-          <img
-            className="col-span-2 max-h-12 w-12 h-12 object-contain lg:col-span-1"
-            src={nodeLogo}
-          />
-          <img
-            className="col-span-2 max-h-12 w-12 h-12 object-contain lg:col-span-1"
-            src={javaLogo}
-          />
-          <img
-            className="col-span-2 max-h-12 w-12 h-12 object-contain lg:col-span-1"
-            src={mysqlLogo}
-          />
-          <img
-            className="col-span-2 max-h-12 w-12 h-12 object-contain lg:col-span-1"
-            src={mongoLogo}
-          />
-          <img
-            className="col-span-2 max-h-12 w-12 h-12 object-contain lg:col-span-1"
-            src={chakraLogo}
-          />
-          <img
-            className="col-span-2 max-h-12 w-12 h-12 object-contain lg:col-span-1"
-            src={bootstrapLogo}
-          />
-          
+        <div class="">
+          <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <h2 class="text-center text-4xl font-bold leading-8 text-gray-900">
+              Techstacks
+            </h2>
+            <div class="mt-12 container m-auto grid grid-cols-6 ">
+              <img
+                class="max-h-12 w-full object-contain "
+                src={javaLogo}
+                alt="SavvyCal"
+                width="158"
+                height="48"
+              />
+                <img
+                  class="max-h-12 w-full object-contain "
+                  src={nodeLogo}
+                  alt="Statamic"
+                  width="158"
+                  height="48"
+                />
+              <img
+                class="max-h-12 w-full object-contain "
+                src={reactLogo}
+                alt="Tuple"
+                width="158"
+                height="48"
+              />
+              <img
+                class="max-h-12 w-full object-contain "
+                src={mongoLogo}
+                alt="Statamic"
+                width="158"
+                height="48"
+              />
+              <img
+                class="max-h-12 w-full object-contain "
+                src={mysqlLogo}
+                alt="Statamic"
+                width="158"
+                height="48"
+              />
+              <img
+                class="max-h-12 w-full object-contain "
+                src={chakraLogo}
+                alt="Statamic"
+                width="158"
+                height="48"
+              />
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-
       </div>
     </div>
   );
