@@ -20,7 +20,7 @@ const Project = () => {
         },
         {
           name: 'Travel',
-          description: 'Daily commute essentials',
+          description: 'Github',
           imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
           imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
           href: '#',
@@ -28,7 +28,7 @@ const Project = () => {
       ]
   return (
     <>
-    <div className="">
+    <div id="projects">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
           <h2 className="text-2xl font-bold text-gray-900">PROJECTS</h2>
@@ -43,13 +43,13 @@ const Project = () => {
                     className="h-full w-full object-cover object-center"
                   />
                 </div>
-                <h3 className="mt-6 text-sm text-gray-500">
+                <h3 className="mt-6 text-base font-semibold text-gray-900">
                   <a href={callout.href}>
                     <span className="absolute inset-0" />
                     {callout.name}
                   </a>
                 </h3>
-                <p className="text-base font-semibold text-gray-900">{callout.description}</p>
+                <p className="text-sm text-gray-500">{callout.description} <span aria-hidden="true">&rarr;</span></p>
               </div>
             ))}
           </div>
