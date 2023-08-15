@@ -1,5 +1,5 @@
 import React from 'react'
-import Resume from '../assets/Resume.pdf'
+import Resume from '../assets/Vivek_Santani_Resume.pdf'
 const Footer = () => {
   return (
     <>
@@ -18,7 +18,7 @@ const Footer = () => {
             <a href="#education" class="mr-4 hover:underline md:mr-6">Education</a>
         </li>
         <li>
-            <a href={Resume} download={"Resume"} class="hover:underline">Download Resume</a>
+            <a href={Resume} download={"Vivek Santani Resume"} class="hover:underline">Download Resume</a>
         </li>
     </ul>
     </div>

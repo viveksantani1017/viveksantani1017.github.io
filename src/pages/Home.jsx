@@ -31,7 +31,7 @@ export default function Home() {
               A passionate full-stack developer with little experience in
               developing scalable websites/web applications using a range of
               front-end skills like HTML, CSS, JavaScript, React JS, backend
-              skills like Node.js J2EE and using databases like MongoDB, Mysql,
+              skills like Node.js, J2EE, ASP .NET and using databases like MongoDB, Mysql,
               and Oracle.
             </p>
             <h1 className="text-xl mt-4 font-bold tracking-tight text-indigo-500 sm:text">

@@ -1,5 +1,5 @@
 import React from 'react'
-import Resume from "../assets/Resume.pdf";
+import Resume from "../assets/Vivek_Santani_Resume.pdf";
 import logo from "../assets/logo.png";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
@@ -53,7 +53,7 @@ const Header = () => {
             <a
               href={Resume}
               className="text-sm font-semibold leading-6 text-gray-900"
-              download={"Resume"}
+              download={"Vivek Santani Resume"}
             >
               Download Resume <span aria-hidden="true">&rarr;</span>
             </a>

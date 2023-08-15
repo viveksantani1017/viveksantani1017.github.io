@@ -22,9 +22,16 @@ export default function Experience() {
                 </div>
                 <div className="text-gray-600">Full Stack Developer Intern</div>
                 <div className="text-gray-900">
-                  Successfully created parts of admin panel using reactjs and
+                  Successfully created parts of Madfarms admin panel using ReactJs and
                   created multiple APIs using .Net Core 6
                 </div>
+                <a
+                  href="https://github.com/trioinfotech/mad-farm-web-api"
+                  className="text-sm leading-6 text-gray-500"
+                  target="blank"
+                >
+                  Github <span aria-hidden="true">&rarr;</span>
+                </a>
               </div>
               <div className="font-semibold text-gray-900 text-xl mt-12">
                 Reference
