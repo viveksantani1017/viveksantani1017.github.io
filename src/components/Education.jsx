@@ -23,7 +23,7 @@ const education = [
 export default function Education() {
   return (
     <div id="education">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mb-20">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mb-20 py-32 sm:py-48 lg:py-56" >
       <h2 className="text-2xl font-bold text-gray-900 mb-12">EDUCATION</h2>
         <ul role="list" className="divide-y divide-gray-100">
           {education.map((item) => (
