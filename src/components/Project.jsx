@@ -1,5 +1,6 @@
 import React from "react";
 import madfarms from "../assets/HomePage.png";
+import UrbanClosetAndroid from "../assets/UrbanClosetAndroid.png";
 import projectCard from "../assets/Project Card.png";
 import PrimeVideoImg from "../assets/PrimeVideoClone.png";
 import {
@@ -41,27 +42,7 @@ const Project = () => {
         <div className="mx-auto  max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:max-w-none ">
             <h2 className="text-2xl font-bold text-gray-900">PROJECTS</h2>
-
-            <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
-              <div key="2" className="group relative">
-              <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1  sm:h-64">
-                  <img
-                    src={projectCard}
-                    // alt={callout.imageAlt}
-                    className="h-full w-full object-cover object-center"
-                  />
-                </div>
-                <h3 className="mt-6 text-base font-semibold text-gray-900">
-                    Rank My Code
-                </h3>
-                <a
-                  href="https://github.com/viveksantani1017/rank-my-code"
-                  className="text-sm leading-6 text-gray-500"
-                >
-                  Github <span aria-hidden="true">&rarr;</span>
-                </a>
-              </div>
-              <div key="2" className="group relative">
+            <div key="2" className="group relative">
                 <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1  sm:h-64">
                   <img
                     src={PrimeVideoImg}
@@ -75,12 +56,34 @@ const Project = () => {
                 <a
                   href="https://github.com/viveksantani1017/PrimeVideoClone"
                   className="text-sm leading-6 text-gray-500"
+                  target="blank"
                 >
                   Github <span aria-hidden="true">&rarr;</span>
                 </a>
               </div>
+            <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
               <div key="2" className="group relative">
-                <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
+              <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1  sm:h-64">
+                  <img
+                    src={UrbanClosetAndroid}
+                    // alt={callout.imageAlt}
+                    className="h-full w-full object-cover object-center"
+                  />
+                </div>
+                <h3 className="mt-6 text-base font-semibold text-gray-900">
+                    Urban Closet Android
+                </h3>
+                <a
+                  href="https://github.com/viveksantani1017/UrbanClosetAndroid"
+                  className="text-sm leading-6 text-gray-500"
+                  target="blank"
+                >
+                  Github <span aria-hidden="true">&rarr;</span>
+                </a>
+              </div>
+              
+              <div key="2" className="group relative">
+              <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1  sm:h-64">
                   <img
                     src={projectCard}
                     // alt={callout.imageAlt}
@@ -88,14 +91,15 @@ const Project = () => {
                   />
                 </div>
                 <h3 className="mt-6 text-base font-semibold text-gray-900">
-                  <a>
-                    <span className="absolute inset-0" />
-                    Name
-                  </a>
+                    Urban Closet Web
                 </h3>
-                <p className="text-sm text-gray-500">
-                  Description <span aria-hidden="true">&rarr;</span>
-                </p>
+                <a
+                  href="https://github.com/viveksantani1017/UrbanClosetWeb"
+                  className="text-sm leading-6 text-gray-500"
+                  target="blank"
+                >
+                  Github <span aria-hidden="true">&rarr;</span>
+                </a>
               </div>
             </div>
           </div>
